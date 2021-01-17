@@ -7,14 +7,27 @@ body{
     margin: 0;
     background-color: #9e0059;
 }
+h1{
+    width: 30%;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
 
 #game-board {
     background-color: #ffbd00;
-    width: 100vmin;
-    height: 100vmin;
+    width: 95vmin;
+    height: 95vmin;
     display: grid;
+    /* flex-grow: 2; */
     grid-template-columns: repeat(21, 1fr);
     grid-template-rows: repeat(21, 1fr) ;
+    border: 5px solid #390099;
 } 
 
 .snake{
